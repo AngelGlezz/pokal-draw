@@ -109,30 +109,30 @@
 }
 
 .container-2017 {
-    width: 1025px;
-    height: 213px;
-}
-
-.container-2016, .container-2014 {
-    width: 1373px;
+    width: 1035px;
     height: 223px;
 }
 
+.container-2016, .container-2014 {
+    width: 1385px;
+    height: 233px;
+}
+
 .container-2015-a {
-    width: 1025px;
-    height: 213px;
+    width: 1045px;
+    height: 233px;
     margin-top: 50px;
 }
 
 .container-2015-b {
-    width: 685px;
-    height: 213px;
+    width: 705px;
+    height: 233px;
     margin-top: 20px;
 }
 
 .container-2013-b {
-    width: 1025px;
-    height: 213px;
+    width: 1045px;
+    height: 233px;
     margin-top: 20px;
 }
 
