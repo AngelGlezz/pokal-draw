@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2do de Secundaria</title>
+    <link rel="preload" href="../css/page.css" as="style">
+    <link rel="stylesheet" href="../css/page.css">
+    <style>
+        html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+            border: 0 none;
+            font-size: 100%;
+            margin: 0;
+            outline: 0 none;
+            padding: 0;
+            vertical-align: baseline;
+            width: auto;
+        }  
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="head">
+            <div class="head-item">
+                <div class="logo-giro"></div>
+            </div>
+            <div class="head-item">
+                <div class="logo-ecyd"></div>
+                <div class="sign-draw"></div>
+            </div>
+            <div class="head-item">
+                <div class="nike-logo"></div>
+            </div>
+        </div>
+        <div class="category-container">
+            <span>Categoría</span>
+            <div class="category blue-back">2do Secundaria</div>
+            <div class="teams blue-back">10</div>
+            <span>Equipos</span>
+        </div>
+        <div class="container-2do-sec group">
+            <iframe id="spreadsheet" 
+                src="https://docs.google.com/spreadsheets/d/1pVz6dqACSSejAD1TmxhhLo9G4y2nIL1w248vSehMhQc/htmlembed?single=true&gid=487401327&range=b28:b40&widget=false&chrome=false"
+                frameborder="0" allowfullscreen="">
+            </iframe>
+        </div>
+        <div class="main">
+            <a href="../3ro-primaria/" class="main-link">3ero Primaria</a>
+            <a href="../4to-primaria/" class="main-link">4to Primaria</a>
+            <a href="../5to-primaria/" class="main-link">5to Primaria</a>
+            <a href="../6to-primaria/" class="main-link">6to Primaria</a>
+            <a href="../1ero-secundaria/" class="main-link">1ero Secundaria</a>
+            <a href="#" class="main-link">2do Secundaria</a>
+            <a href="../3ro-secundaria/" class="main-link">3ro Secundaria</a>
+            <a href="../prepa/" class="main-link">Preparatoria</a>
+        </div>
+    </div>
+    <!-- Iframe that embeds the Google Spreadsheet -->
+
+    <script>
+        // Function to reload the iframe every 30 seconds
+        function reloadIframe() {
+            var iframe = document.getElementById('spreadsheet');
+            iframe.src = iframe.src;  // Reload the iframe by reassigning the src
+        }
+        // Set interval to reload the iframe every 30 seconds (30000 milliseconds)
+        setInterval(reloadIframe, 3000);
+    </script>
+</body>
+</html>

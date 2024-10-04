@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2009</title>
+    <link rel="preload" href="../css/page.css" as="style">
+    <link rel="stylesheet" href="../css/page.css">
+    <style>
+        html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+            border: 0 none;
+            font-size: 100%;
+            margin: 0;
+            outline: 0 none;
+            padding: 0;
+            vertical-align: baseline;
+            width: auto;
+        }  
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="head">
+            <div class="head-item">
+                <div class="logo-timon"></div>
+            </div>
+            <div class="head-item">
+                <div class="logo-ecyd"></div>
+                <div class="sign-draw"></div>
+            </div>
+            <div class="head-item">
+                <div class="nike-logo"></div>
+            </div>
+        </div>
+        <div class="category-container">
+            <span>Categoría</span>
+            <div class="category blue-back">2009</div>
+            <div class="teams blue-back">16</div>
+            <span>Equipos</span>
+        </div>
+        <div class="container-2016 group">
+            <iframe id="spreadsheet" 
+                src="https://docs.google.com/spreadsheets/d/1lmMRx8Gsq2INB7KkDOJGW1CiHd8rH6W_K57jIfuRjus/htmlembed?single=true&gid=968778168&range=b24:e29&widget=false&chrome=false"
+                frameborder="0" allowfullscreen="">
+            </iframe>
+        </div>
+        <div class="main">
+            <a href="../2007/" class="main-link">2007</a>
+            <a href="../2008/" class="main-link">2008</a>
+            <a href="#" class="main-link">2009</a>
+            <a href="../2010/" class="main-link">2010</a>
+            <a href="../2011/" class="main-link">2011</a>
+            <a href="../2012/" class="main-link">2012</a>
+            <a href="../2013/" class="main-link">2013</a>
+            <a href="../2014/" class="main-link">2014</a>
+            <a href="../2015/" class="main-link">2015</a>
+            <a href="../2016/" class="main-link">2016</a>
+            <a href="../2017/" class="main-link">2017</a>
+        </div>
+    </div>
+    <!-- Iframe that embeds the Google Spreadsheet -->
+
+    <script>
+        // Function to reload the iframe every 30 seconds
+        function reloadIframe() {
+            var iframe = document.getElementById('spreadsheet');
+            iframe.src = iframe.src;  // Reload the iframe by reassigning the src
+        }
+        // Set interval to reload the iframe every 30 seconds (30000 milliseconds)
+        setInterval(reloadIframe, 3000);
+    </script>
+</body>
+</html>
