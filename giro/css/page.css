@@ -147,3 +147,23 @@
     width: 100%; 
     height: 100%; 
 }
+
+.main {
+    width: 1200px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+
+.main-link {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
