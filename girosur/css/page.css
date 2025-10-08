@@ -35,10 +35,10 @@
 .logo-giro {
     width: 100%;
     height: 280px;
-    background-image: url(../images/giroSurblanco.png);
+    background-image: url(../images/CGS+FINSUS.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 75%;
+    background-size: 50%;
 }
 
 .logo-ecyd {
@@ -104,6 +104,11 @@
     color: #fff;
 }
 
+.container-1x5 {
+    width: 345px;
+    height: 275px;
+}
+
 .container-1x7 {
     width: 345px;
     height: 355px;
@@ -126,6 +131,11 @@
 
 .container-3x4 {
     width: 1025px;
+    height: 250px;
+}
+
+.container-4x4 {
+    width: 1368px;
     height: 250px;
 }
 
