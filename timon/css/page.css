@@ -63,7 +63,7 @@
 .finsussponsor {
     width: 100%;
     height: 250px;
-    background-image: url(../images/finsus-blanco.png);
+    background-image: url(../images/finsus26.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
@@ -200,12 +200,12 @@
 }
 
 #code-ios {
-    background-image: url(../images/ios_qr.png);
+    background-image: url(../images/QRWAME.png);
     left: 30px;
 }
 
 #code-android {
-    background-image: url(../images/android_qr.png);
+    background-image: url(../images/QRWAME.png);
     right: 30px;
 }
 
